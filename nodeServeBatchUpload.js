@@ -5,6 +5,7 @@ var fs = require('fs');
 var path = require('path');
 //引入url模块
 var url = require('url');
+
 //开启本地http服务，监听相应端口号
 http.createServer(function(req,res){
 //获取requset信息中的host地址
